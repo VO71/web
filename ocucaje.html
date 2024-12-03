@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ocucaje</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="icon" href="../img/LOGOO.png">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/productos.css">
+    <script src="../js/javascript.js" async></script>
+    
+    <title></title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="logo">
+        <a  href="index.html"><img src="../img/garcas.png.jpeg" alt="logo-empresa"/>
+        </a></div>
+    
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ocucaje.html">Ocucaje</a></li>
+                <li><a href="docile.html">Docile</a></li>
+                <li><a href="altomayo.html">Altomayo</a></li>
+                
+            </ul>
+        </nav>
+        
+        <div class="login">
+            <a id="loginPC" href="http://localhost/miiiProyecto/public/pages/ingreso.html">Ingresar<img src="../icons/icon-user.svg" alt="ingresar"></a>
+        </div>
+
+        <a class="loginMovil" ><img src="../icons/icon-user.svg" alt="ingresar"></a>
+
+        <button id="btnTema">
+            🌙
+        </button>
+      
+    </header>
+
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Vino Borgoña</span>
+                <img src="..\img\1_vino_borgoña.jpg" alt="" class="img-item">
+                <!-- precio-->
+                <span class="precio-item">$15.00</span>
+                <!-- boton-->
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Vino Rose</span>
+                <img src="..\img\2_vino_rose.jpg" alt="" class="img-item">
+                <span class="precio-item">$12.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Vino Moscatel</span>
+                <img src="../img/3_vino_moscatel.jpg" alt="" class="img-item">
+                <span class="precio-item">$14.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Vino Fonddecave Tinto</span>
+                <img src="../img/4_vino_fonddecave_blanco.jpg" alt="" class="img-item">
+                <span class="precio-item">$18.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Vino Fonddecave Tinto</span>
+                <img src="../img/5_vino_fonddecave_tinto.jpg" alt="" class="img-item">
+                <span class="precio-item">$20.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Vino Oportunidad del Abuelo</span>
+                <img src="../img/6_vino_oportodelabuelo.jpg" alt="" class="img-item">
+                <span class="precio-item">$25.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pisco Italia 100 Años</span>
+                <img src="../img/10_pisco_italia100años.jpg" alt="" class="img-item">
+                <span class="precio-item">$54.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pisco Quebranta 100 Años</span>
+                <img src="../img/11_pisco_quebranta100años.jpg" alt="" class="img-item">
+                <span class="precio-item">$32.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pisco Acholado</span>
+                <img src="..\img\Untitled (2).jpg" alt="" class="img-item">
+                <span class="precio-item">$42.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Huacocolor</span>
+                <img src="../img/15_huacocolor.jpg" alt="" class="img-item">
+                <span class="precio-item">$10.00</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar"><a href="falta_agregar"></a>Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-1">
+            <div class="box-Empresa">
+                
+                <h5>Distribuidora Garcas</h5>               
+            </div>
+            
+            <div class="box-rs">
+                <h5>Siguenos:</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/garcas.distribuciones/"><img src="../icons/icon-facebook.svg" alt="icono-facebook"></a></li>                                      
+                    <li><a href="https://www.youtube.com/@grupogarcasdistribucionesi3845"><img src="../icons/icon-youtube.svg" alt="icono-youtube"></a></li>
+                    <li><a href="https://www.instagram.com/grupogarcasdistribuciones/"><img src="../icons/icon-instagram.svg" alt="icono-instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-2">
+            <div class="box-creditos">
+                <p>©2024 · Todos los derechos reservados.</p>
+            </div>
+            <div class="box-legal">
+                <a href="#">Política de Privacidad </a>
+                <a href="#">Política de Cookies </a>
+                <a href="#">Aviso Legal</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
